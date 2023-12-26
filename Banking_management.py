@@ -1,7 +1,7 @@
 class Bank:
     def __init__(self):
-        self.users = {}  # Store user accounts
-        self.loan_active = True  # Loan feature initially enabled
+        self.users = {}  
+        self.loan_active = True
         self.total_balance_in_bank = 0
         self.total_loan_amount_in_bank = 0
 
